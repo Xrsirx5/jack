@@ -30,7 +30,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Command Help", callback_data="help_data")
+                    InlineKeyboardButton("🙀 group 🙀", url="https://t.me/Tvmoviehere")
                 ]
             ]
         )
@@ -42,27 +42,6 @@ async def cb_handler(client, query):
         )
         return
 
-    elif query.data == "help_data":
-        await query.answer()
-        keyboard = InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton("How to Deploy?", url="https://youtu.be/hkmc3e7U7R4"),
-                    InlineKeyboardButton("About Me", callback_data="about_data")
-                ],
-                [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/TroJanzHEX"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/TroJanzSupport")
-                ]
-            ]
-        )
-
-        await query.message.edit_text(
-            Script.HELP_MSG,
-            reply_markup=keyboard,
-            disable_web_page_preview=True
-        )
-        return
 
     elif query.data == "about_data":
         await query.answer()
