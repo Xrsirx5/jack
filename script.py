@@ -1,60 +1,55 @@
 class Script(object):
 
-    START_MSG = """<b>Hy {},
+    START_MSG = """🇭‌🇪‌🇾‌ {}, !! 🤞
 
-I'm an advanced filter bot with many capabilities!
-There is no practical limits for my filtering capacity :)
+I am a  <b>Filter</b> Bot work for my group. 😉  @Tvmoviehere.
 
-See <i>/help</i> for commands and more details.</b>
+𝙔𝙤𝙪 𝘾𝙖𝙣'𝙩 𝙐𝙨𝙚 𝙈𝙚 😸!! 
+
+🔹𝗧𝗘𝗔𝗠 𝗧𝘃 𝗿𝗼𝗰𝗸𝗲𝗿𝘀🔹
 """
 
 
     HELP_MSG = """
-<i>Add me as admin in your group and start filtering :)</i>
-
-
-<b>Basic Commands;</b>
+Basic Commands;
 
 /start - Check if I'm alive!
 /help - Command help
 /about - Something about me!
 
 
-<b>Filter Commands;</b>
+Filter Commands;
 
-<code>/add name reply</code>  -  Add filter for name
+/add name reply  -  Add filter for name
 
-<code>/del name</code>  -  Delete filter
+/del name  -  Delete filter
 
-<code>/delall</code>  -  Delete entire filters (Group Owner Only!)
+/delall  -  Delete entire filters (Group Owner Only!)
 
-<code>/viewfilters</code>  -  List all filters in chat
-
-
-<b>Connection Commands;</b>
-
-<code>/connect groupid</code>  -  Connect your group to my PM. You can also simply use,
-<code>/connect</code> in groups.
-
-<code>/connections</code>  -  Manage your connections.
+/viewfilters  -  List all filters in chat
 
 
-<b>Extras;</b>
+Connection Commands;
+
+/connect groupid  -  Connect your group to my PM. You can also simply use,
+/connect in groups.
+
+/connections  -  Manage your connections.
+
+
+Extras;
 
 /status  -  Shows current status of your bot (Auth User Only)
 
 /id  -  Shows ID information
 
-<code>/info userid</code>  -  Shows User Information. Use <code>/info</code> as reply to some message for their details!
-
-
-<b>© @TroJanzHEX</b>
+/info userid  -  Shows User Information. Use /info as reply to some message for their details!
 """
 
 
-    ABOUT_MSG = """⭕️<b>My Name : TroJanz Filter Bot</b>
+    ABOUT_MSG = """⭕️<b>My Name :  Filter Bot</b>
 
-⭕️<b>Creater :</b> @TroJanzHEX    
+⭕️<b>Creater :</b> @Tvmoviehere   
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
